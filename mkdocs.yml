@@ -1,0 +1,43 @@
+site_name: Price History ID Docs
+site_url: https://pricehistoryid.github.io/
+site_author: wikankun
+
+repo_name: pricehistoryid/chrome-price-history
+repo_url: https://github.com/pricehistoryid/chrome-price-history
+
+copyright: Copyright &copy; 2023 - 2024 wikankun
+
+theme:
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: en
+  logo: assets/price-history-128.png
+  favicon: assets/price-history-128.png
+  palette: 
+    - media: "(prefers-color-scheme)"
+      primary: teal
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    - media: "(prefers-color-scheme: light)"
+      primary: teal
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      primary: teal
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
