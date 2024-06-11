@@ -19,24 +19,24 @@ theme:
     text: Roboto
     code: Roboto Mono
   language: en
-  logo: assets/price-history-128.png
-  favicon: assets/price-history-128.png
+  logo: assets/logo-green-nobg.png
+  favicon: assets/logo-green-nobg.png
   palette: 
     - media: "(prefers-color-scheme)"
-      primary: teal
+      primary: black
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
 
     - media: "(prefers-color-scheme: light)"
-      primary: teal
+      primary: black
       scheme: default 
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
 
     - media: "(prefers-color-scheme: dark)"
-      primary: teal
+      primary: black
       scheme: slate
       toggle:
         icon: material/brightness-4
